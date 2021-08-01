@@ -1,0 +1,27 @@
+#N canvas 582 406 450 300 10;
+#X obj 16 45 timer;
+#X obj 105 238 delay 1000;
+#X obj 214 47 pipe 1000;
+#X floatatom 214 24 5 0 0 0 - - -;
+#X floatatom 215 70 5 0 0 0 - - -;
+#X obj 16 27 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 43 27 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 16 68 5 0 0 0 - - -;
+#X msg 89 153 bang;
+#X msg 127 133 stop;
+#X msg 141 156 2000;
+#X floatatom 201 191 5 0 0 0 - - -;
+#X obj 103 263 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 0 0 7 0;
+#X connect 1 0 12 0;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 1;
+#X connect 8 0 1 0;
+#X connect 9 0 1 0;
+#X connect 10 0 1 0;
+#X connect 11 0 1 1;

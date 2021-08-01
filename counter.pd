@@ -1,0 +1,11 @@
+#N canvas 540 215 450 300 10;
+#X obj 7 8 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 7 30 metro 500;
+#X obj 7 51 f 0;
+#X floatatom 7 72 5 0 0 0 - - -;
+#X obj 33 51 + 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 0 4 0;
+#X connect 4 0 2 1;

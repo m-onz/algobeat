@@ -1,0 +1,46 @@
+#N canvas 104 332 450 348 10;
+#X declare -path pdjs;
+#X obj 5 8 declare -path pdjs;
+#X obj 32 108 js randomlist.js;
+#X obj 32 70 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 32 128 unpack 0 0 0 0 0 0 0 0;
+#X floatatom 32 145 5 0 0 0 - - -;
+#X floatatom 65 145 5 0 0 0 - - -;
+#X floatatom 98 145 5 0 0 0 - - -;
+#X floatatom 131 145 5 0 0 0 - - -;
+#X floatatom 162 145 5 0 0 0 - - -;
+#X floatatom 195 145 5 0 0 0 - - -;
+#X floatatom 228 145 5 0 0 0 - - -;
+#X floatatom 261 145 5 0 0 0 - - -;
+#X floatatom 82 232 5 0 0 0 - - -;
+#X obj 58 213 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 32 278 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 32 255 js xdel.js, f 14;
+#X obj 82 209 r metro;
+#X obj 96 38 inlet;
+#X obj 32 311 outlet;
+#X obj 57 38 inlet;
+#X obj 105 71 t b;
+#X connect 1 0 3 0;
+#X connect 1 0 15 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 3 1 5 0;
+#X connect 3 2 6 0;
+#X connect 3 3 7 0;
+#X connect 3 4 8 0;
+#X connect 3 5 9 0;
+#X connect 3 6 10 0;
+#X connect 3 7 11 0;
+#X connect 12 0 15 0;
+#X connect 13 0 15 0;
+#X connect 14 0 18 0;
+#X connect 15 0 14 0;
+#X connect 16 0 12 0;
+#X connect 17 0 1 0;
+#X connect 17 0 20 0;
+#X connect 19 0 13 0;
+#X connect 20 0 2 0;

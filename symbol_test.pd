@@ -1,0 +1,32 @@
+#N canvas 615 156 627 426 10;
+#X symbolatom 24 66 40 0 0 0 - - -;
+#X msg 24 18 symbol wahoo;
+#X obj 33 47 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 23 95 pack s;
+#X symbolatom 23 201 10 0 0 0 - - -;
+#X symbolatom 89 201 10 0 0 0 - - -;
+#X msg 89 226 \$1;
+#X obj 89 317 print;
+#X msg 235 117 list monz woz ere;
+#X obj 235 144 unpack s s s;
+#X symbolatom 211 230 10 0 0 0 - - -;
+#X symbolatom 276 229 10 0 0 0 - - -;
+#X symbolatom 341 228 10 0 0 0 - - -;
+#X symbolatom 277 251 10 0 0 0 - - -;
+#X obj 446 148 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X symbolatom 277 273 10 0 0 0 - - -;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 4 0;
+#X connect 3 0 5 0;
+#X connect 5 0 6 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 9 1 11 0;
+#X connect 9 2 12 0;
+#X connect 11 0 13 0;
+#X connect 13 0 15 0;
+#X connect 14 0 13 0;
